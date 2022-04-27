@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.min.css">
+	<!--<link rel="stylesheet" href="css/style.css">-->
+	<link rel="shortcut icon" href="/img/Logo gl!b favicon-01.png" type="image/png">
+
+	<!--<link rel="stylesheet" href="css/fonts.css">-->
+	<title>Главная</title>
+</head>
+<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+<body>
+	<!-- подключпем header -->
+	<div class="wrapper">
+	<section class="header">
+		<div class="header__container">
+			<div class="header__logo-container">
+				<a href="index.html">
+					<img class="header__logo" src="img/gl!b_logo.png" alt="glib">
+				</a>
+			</div>
+			<!-- burger -->
+			<div class="header__burger">
+				<span>
+
+				</span>
+			</div>
+
+			<!-- menu -->
+			<div class="header__menu menu">
+
+				<ul class="menu__list">
+					<li class="menu__item">
+						<a class="menu__link " href="about.html">Обо мне</a>
+					</li>
+					<li class="menu__item">
+						<a class="menu__link" href="service.html">услуги</a>
+					</li>
+					<li class="menu__item">
+						<a class="menu__link" href="portfolio.html">портфолио</a>
+					</li>
+					<li class="menu__item">
+						<a class="menu__link" href="about.html">творчество</a>
+					</li>
+					<li class="menu__item">
+						<a class="menu__link" href="contact.html">контакты</a>
+					</li>
+			</div>
+			<form class="header__search-form search-form" action="" method="get">
+				<input class="search-form__input" placeholder="поиск..." type="search">
+				<button class="search-form__button">
+					<img src="img/search-form/search icon.png" alt="" class="search-form__icon">
+				</button>
+			</form>
+			<ul class="header__lang-switcher lang-switcher">
+				<li class="lang-switcher__item">
+					<a class="lang-switcher__link" href="#">en</a>
+				</li>
+				<!-- <li class="lang-switcher__item">
+						<a class="lang-switcher__link" href="#">ru</a>
+					</li> -->
+			</ul>
+		</div>
+	</section>
+</div>
+	<!-- подключпем контент -->
+	<section class="main-banners ">
+	<div class="main-banners__section">
+		<div class="main-banners__slider swiper _container ">
+			<div class="main-banners__banner swiper-wrapper">
+				<div data-hash="slide-1" class="main-banners__content swiper-slide ">
+					<div class="main-banners__allImage">
+						<div class="main-banners__image_p_1">
+							<img class="main-banner__chair" src="img/banners/1)/0) bubble-chair.png" alt="chair image">
+						</div>
+						<div class="main-banners__image_p_2">
+							<img class="main-banners__personage" src="img/banners/1)/1) personage.png" alt="personage image">
+						</div>
+						<div class="main-banners__image_p_3">
+							<img src="img/banners/1)/2) laptop.png" alt="laptop image" class="main-banners__laptop">
+						</div>
+					</div>
+					<div class="main-banners__info">
+						<h1>
+							Привет, меня зовут Глеб <br> и я хочу делать для вас <br>
+							бомбезные сайты или <br> любой другой креатив.
+						</h1>
+						<div class="main-banners__btns btns">
+							<button class="btns__btn1 button">Хочу сайт</button>
+							<button class="btns__btn2 button">Предложить вакансию</button>
+						</div>
+					</div>
+				</div>
+				<div data-hash="slide-2" class="main-banners__content swiper-slide ">
+					<span> slide 2</span>
+				</div>
+				<div data-hash="slide-3" class="main-banners__content swiper-slide ">
+					<span> slide 3</span>
+				</div>
+			</div>
+			<div class="main-banners__navigate ban-nav">
+				<button class="ban-nav__btn swiper-button-prev">
+				</button>
+				<button class="ban-nav__btn swiper-button-next">
+				</button>
+			</div>
+			<div class="main-banners__dotsholder swiper-pagination dots">
+			</div>
+		</div>
+		<div class="main-banners__image ibg">
+			<img src="img/banners/1_banner_bg.png" alt="image">
+		</div>
+	</div>
+</section>
+<section class="service">
+	<div class="service__section _container">
+		<div class="service__content _section-padd-tb">
+			<div class="service__titel title">
+				<h2>Мои услуги</h2>
+			</div>
+			<div class="service__subtitel subtitle">
+				<p> В мои услуги, связанные с созданием сайта входят все этапы,
+					back-end, продвижения и техподдержки, в данный момент. Это означает что обратившись ко мне даже с
+					нуля, с момента задумки, вы получите кросбраузерный сайт (front-end часть) адаптированный
+					под актуальные устроства. </p>
+			</div>
+			<div class="service__row">
+				<div class="service__column">
+					<div class="service__content item-service">
+						<div class="item-service__icon">
+							<img src="/img/service/01.png" alt="">
+						</div>
+						<div class="item-service__titel">
+							<h3>Брендирование и <br>
+								корпоративный стиль</h3>
+						</div>
+					</div>
+				</div>
+				<div class="service__column">
+					<div class="service__content item-service">
+						<div class="item-service__icon">
+							<img src="/img/service/02.png" alt="">
+						</div>
+						<div class="item-service__titel">
+							<h3>Дизайн сайта <br>
+								и его элементов</h3>
+						</div>
+					</div>
+				</div>
+				<div class="service__column">
+					<div class="service__content item-service">
+						<div class="item-service__icon">
+							<img src="/img/service/03.png" alt="">
+						</div>
+						<div class="item-service__titel">
+							<h3>Разработка front-end <br>
+								HTML+CSS+JS</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="service__text">
+				<p>Также есть возможность заказать любой из этих этапов отдельно,<br> просто это всегда будет чуть
+					дольше
+					и менее выгодно.</p>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="offer">
+	<div class="offer__section _container">
+		<div class="offer__content _section-padd-tb">
+			<div class="offer__title title">
+				<h2>Цены и предложения</h2>
+			</div>
+			<div class="offer__subtitle subtitle">
+				<p> Выбирайте какой тип сайта вам нужен? И посмотрите, что будет
+					включено в
+					базовый проект за эту сумму. Так же обратите внимание на дополнительные опции, более подробно
+					изучив все
+					возможности. Детали мы конечно обсудим перед началом сотрудничества. После чего цена будет
+					разработана
+					индивидуально под ваш проект. </p>
+			</div>
+			<div class="offer__cards-container">
+				<div class="offer__card-1 offer-card">
+					<div class="offer__item-title">
+						<H4>Landing Page</H4>
+					</div>
+					<div class="offer__item-icon">
+						<img src="img/offer/1) landing.png" alt="landing icon">
+					</div>
+					<div class="offer-items__detail">
+						<div class="offer-items__feature">
+							<div class="offer__items-title">
+								<span>Проект состоит из:</span>
+							</div>
+							<div class="offer__items-content">
+								<p>Индивидуальный дизайн, скролл меню, до 5-ти блоков</p>
+							</div>
+							<hr class="underline-offer">
+						</div>
+						<div class=" offer__items-feature">
+							<div class="offer__items-title">
+								<span> Цена:</span>
+							</div>
+							<div class="offer__items-price">
+								<span class="offer__from">от</span>
+								<span class="offer__price">300</span>
+								<span class="offer__price-symbol">$</span>
+							</div>
+							<hr class="underline-offer">
+						</div>
+						<div class="offer-items__feature">
+							<div class="offer__items-title">
+								<span>Срок разработки:</span>
+							</div>
+							<div class="offer__items-termin">
+								<p>от 5 дней</p>
+							</div>
+							<p></p>
+						</div>
+						<div class="offer__bt">
+							<button class="offer__button3 "><span>Подробнее</span></button>
+						</div>
+
+					</div>
+				</div>
+				<div class="offer__card-2 offer-card">
+					<div class="offer__item-title">
+						<H4>Интернет-магазин</H4>
+					</div>
+					<div class="offer__item-icon">
+						<img src="img/offer/2) shop.png" alt="shop icon">
+					</div>
+					<div class="offer-items__detail">
+						<div class="offer-items__feature">
+							<div class="offer__items-title">
+								<span>Проект состоит из:</span>
+							</div>
+							<div class="offer__items-content">
+								<p>Индивидуальный дизайн, скролл меню, до 5-ти блоков...</p>
+							</div>
+							<hr class="underline-offer">
+						</div>
+						<div class=" offer__items-feature">
+							<div class="offer__items-title">
+								<span> Цена:</span>
+							</div>
+							<div class="offer__items-price">
+								<span class="offer__from">от</span>
+								<span class="offer__price">650</span>
+								<span class="offer__price-symbol">$</span>
+							</div>
+							<hr class="underline-offer">
+						</div>
+						<div class="offer-items__feature">
+							<div class="offer__items-title">
+								<span>Срок разработки:</span>
+							</div>
+							<div class="offer__items-termin">
+								<p>от 14 дней</p>
+							</div>
+							<p></p>
+						</div>
+						<div class="offer__bt">
+							<button class="offer__button3 "><span>Подробнее</span></button>
+						</div>
+
+					</div>
+				</div>
+				<div class="offer__card-3 offer-card">
+					<div class="offer__item-title">
+						<H4>Корпоративный</H4>
+					</div>
+					<div class="offer__item-icon">
+						<img src="img/offer/3) corporate.png" alt="corporait icon">
+					</div>
+					<div class="offer-items__detail">
+						<div class="offer-items__feature">
+							<div class="offer__items-title">
+								<span>Проект состоит из:</span>
+							</div>
+							<div class="offer__items-content">
+								<p>Индивидуальный дизайн, скролл меню, до 5-ти блоков...</p>
+							</div>
+							<hr class="underline-offer">
+						</div>
+						<div class=" offer__items-feature">
+							<div class="offer__items-title">
+								<span> Цена:</span>
+							</div>
+							<div class="offer__items-price">
+								<span class="offer__from">от</span>
+								<span class="offer__price">500</span>
+								<span class="offer__price-symbol">$</span>
+							</div>
+							<hr class="underline-offer">
+						</div>
+						<div class="offer-items__feature">
+							<div class="offer__items-title">
+								<span>Срок разработки:</span>
+							</div>
+							<div class="offer__items-termin">
+								<p>от 10 дней</p>
+							</div>
+							<p></p>
+						</div>
+						<div class="offer__bt">
+							<button class="offer__button3 "><span>Подробнее</span></button>
+						</div>
+
+					</div>
+				</div>
+				<div class="offer__card-4 offer-card">
+					<div class="offer__item-title">
+						<H4>Сайт-визитка</H4>
+					</div>
+					<div class="offer__item-icon">
+						<img src="img/offer/4).png" alt="business-card icon">
+					</div>
+					<div class="offer-items__detail">
+						<div class="offer-items__feature">
+							<div class="offer__items-title">
+								<span>Проект состоит из:</span>
+							</div>
+							<div class="offer__items-content">
+								<p>Индивидуальный дизайн, без подменю, ограниченное...</p>
+							</div>
+							<hr class="underline-offer">
+						</div>
+						<div class=" offer__items-feature">
+							<div class="offer__items-title">
+								<span> Цена:</span>
+							</div>
+							<div class="offer__items-price">
+								<span class="offer__from">от</span>
+								<span class="offer__price">300</span>
+								<span class="offer__price-symbol">$</span>
+							</div>
+							<hr class="underline-offer">
+						</div>
+						<div class="offer-items__feature">
+							<div class="offer__items-title">
+								<span>Срок разработки:</span>
+							</div>
+							<div class="offer__items-termin">
+								<p>от 7 дней</p>
+							</div>
+							<p></p>
+						</div>
+						<div class="offer__bt">
+							<button class="offer__button3 "><span>Подробнее</span></button>
+						</div>
+
+					</div>
+				</div>
+				<div class="offer__card-5 offer-card">
+					<div class="offer__item-title">
+						<H4>Спец-проект</H4>
+					</div>
+					<div class="offer__item-icon">
+						<img src="img/offer/5).png" alt="special project icon">
+					</div>
+					<div class="offer-items__detail">
+						<div class="offer-items__feature">
+							<div class="offer__items-title">
+								<span>Проект состоит из:</span>
+							</div>
+							<div class="offer__items-content">
+								<p>Индивидуальный дизайн, скролл меню, до 5-ти блоков</p>
+							</div>
+							<hr class="underline-offer">
+						</div>
+						<div class=" offer__items-feature">
+							<div class="offer__items-title">
+								<span> Цена:</span>
+							</div>
+							<div class="offer__items-price">
+								<span class="offer__price-txt">Расчетная</span>
+							</div>
+							<hr class="underline-offer">
+						</div>
+						<div class="offer-items__feature">
+							<div class="offer__items-title">
+								<span>Срок разработки:</span>
+							</div>
+							<div class="offer__items-termin">
+								<p>от 14 дней</p>
+							</div>
+							<p></p>
+						</div>
+						<div class="offer__bt">
+							<button class="offer__button3 "><span>Подробнее</span></button>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="consultation">
+	<div class="consultation__section _container">
+		<div class="consultation__content _section-padd-tb">
+			<div class="consultation__card-bg">
+				<div class="consultation__titel title">
+					<h2> Нужна консультация? </h2>
+				</div>
+				<div class="consultation__subtitel subtitle">
+					<p>И это нормально. После консультации определиться
+						станет легче.
+						Закажите бесплатный
+						обратный
+						звонок
+						и я перезвоню вам в ближайшее время. Для этого необходимо подтвердить свой номер
+						телефона.
+					</p>
+				</div>
+
+				<form name="mainCallback" class="consultation__calls-form" method="POST" action="input1.php">
+					<div class=" consultation__name forms-areas">
+						<input tabindex="1" value="" name="nameInput" type="text" size="40" placeholder="Ваше имя">
+					</div>
+					<div class="consultation__number forms-areas">
+						<input tabindex="2" value="" name="numberInput" type="tel" size="40" placeholder="+380502672245"
+							min="13" maxlength="13">
+					</div>
+
+				</form>
+
+				<div class="consultation__button" tabindex="3">
+					<a href="" class="consultation__btn button">Обратный звонок</a>
+				</div>
+			</div>
+			<div class="consultation__socialmedia">
+				<span class="consultation__titel2">Также проконсультироваться можно в:</span>
+				<div class="consultation__icons">
+					<div class="consultation__icon1">
+						<button class="consultation__smmicons">
+							<img src="img/consultation/FB.png" alt="FB">
+						</button>
+					</div>
+					<div class="consultation__icon2">
+						<button class="consultation__smmicons">
+							<img src="img/consultation/inst.png" alt="inst">
+						</button>
+					</div>
+					<div class="consultation__icon3">
+						<button class="consultation__smmicons">
+							<img src="img/consultation/in.png" alt="inst">
+						</button>
+					</div>
+				</div>
+			</div>
+			<div class="consultation__img">
+				<img class="consultation__image" src="img/consultation/4) consultant.png" alt="consultant">
+			</div>
+		</div>
+	</div>
+	</div>
+</section>
+<section class="portfolio">
+	<div class="portfolio__section _container">
+		<div class="portfolio__content _section-padd-tb">
+			<div class="portfolio__titel title">
+				<h2>Портфолио и отзывы</h2>
+			</div>
+			<div class="portfolio__subtitel subtitle">
+				<p>Мне уже есть что вам показать. Портфолио будет постоянно пополнятся новыми работами, так что заходи
+					периодически
+					в гости. Самые залайканные работы будут всё время в топе и на виду, а это своего рода бесплатная
+					реклама твоего бизнеса прямо на моем сайте. Так что зови сюда своих друзей и лайкните если
+					понравилось, что может быть проще.
+					Взаимная поддержка это же круто.</p>
+			</div>
+			<!-- grid container -->
+			<div class="portfolio__cards">
+				<div class="portfolio__card-container">
+					<div class="portfolio__card feedback-card">
+						<div class="portfolio__info">
+							<div class="portfolio__user-block">
+								<div class="portfolio__quote"><img class="portfolio__quote" src="img/portfolio/quote.png"
+										alt="quote">
+								</div>
+								<div class=" portfolio__user-info">
+									<div class="portfolio__name">
+										<p>Natalia Halai</p>
+									</div>
+									<div class="portfolio__avatar-box"><img class="portfolio__avatar"
+											src="img/portfolio/1)/ava 1.png" alt="profile img 1"></div>
+								</div>
+							</div>
+							<div class="portfolio__feedback-box">
+								<p class="portfolio__feedback">Cпасибо за логотип и визитки получилось очень
+									стильно, я
+									довольна. С удовольствием
+									закажу сайт когда придет
+									время.
+								</p>
+							</div>
+							<div class="portfolio__detail-box">
+								<div class="portfolio__detail">
+									<img class="portfolio__detail-icon" src="img/portfolio/look.png" alt="look">
+									<a class="portfolio__detail-btn" href="#">Подробнее</a>
+								</div>
+								<div class="portfolio__like-box">
+									<a href="#"><img class="portfolio__like" src="/img/portfolio/like.png" alt="like"></a>
+
+									<span class="portfolio__like-counter">6</span>
+								</div>
+							</div>
+						</div>
+						<div class="portfolio__bg ">
+							<img class="portfolio__image" src="img/portfolio/1)/1bg.png" alt="image 1">
+						</div>
+					</div>
+				</div>
+				<div class="portfolio__card-container">
+					<div class="portfolio__card feedback-card">
+						<div class="portfolio__info">
+							<div class="portfolio__user-block">
+								<div class="portfolio__quote"><img class="portfolio__quote" src="img/portfolio/quote.png"
+										alt="quote">
+								</div>
+								<div class=" portfolio__user-info">
+									<div class="portfolio__name">
+										<p>Natalia Halai</p>
+									</div>
+									<div class="portfolio__avatar-box"><img class="portfolio__avatar"
+											src="img/portfolio/2)/profileImg_2.jpg" alt="profile image 2"></div>
+								</div>
+							</div>
+							<div class="portfolio__feedback-box">
+								<p class="portfolio__feedback">Стильно, и быстро, будем сотрудничать с вами и дальше.
+								</p>
+							</div>
+							<div class="portfolio__detail-box">
+								<div class="portfolio__detail">
+									<img class="portfolio__detail-icon" src="img/portfolio/look.png" alt="look">
+									<a class="portfolio__detail-btn" href="#">Подробнее</a>
+								</div>
+								<div class="portfolio__like-box">
+									<a href="#"><img class="portfolio__like" src="/img/portfolio/like.png" alt="like"></a>
+
+									<span class="portfolio__like-counter">8</span>
+								</div>
+							</div>
+						</div>
+						<div class="portfolio__bg ">
+							<img class="portfolio__image" src="img/portfolio/2)/prewFolioImg_2.jpg" alt="img 3">
+						</div>
+					</div>
+
+				</div>
+				<div class="portfolio__card-container">
+					<div class="portfolio__card feedback-card">
+						<div class="portfolio__info">
+							<div class="portfolio__user-block">
+								<div class="portfolio__quote"><img class="portfolio__quote" src="img/portfolio/quote.png"
+										alt="quote">
+								</div>
+								<div class=" portfolio__user-info">
+									<div class="portfolio__name">
+										<p>Nikita Filini</p>
+									</div>
+									<div class="portfolio__avatar-box"><img class="portfolio__avatar"
+											src="img/portfolio/3)/profileImg_3.jpg" alt="profile"></div>
+								</div>
+							</div>
+							<div class="portfolio__feedback-box">
+								<p class="portfolio__feedback">Глеб, спасибо за логотип и визитки получилось очень
+									стильно, я
+									довольна. С удовольствием
+									закажу сайт когда придет
+									время.
+								</p>
+							</div>
+							<div class="portfolio__detail-box">
+								<div class="portfolio__detail">
+									<img class="portfolio__detail-icon" src="img/portfolio/look.png" alt="look">
+									<a class="portfolio__detail-btn" href="#">Подробнее</a>
+								</div>
+								<div class="portfolio__like-box">
+									<a href="#"><img class="portfolio__like" src="/img/portfolio/like.png" alt="like"></a>
+
+									<span class="portfolio__like-counter">21</span>
+								</div>
+							</div>
+						</div>
+						<div class="portfolio__bg ">
+							<img class="portfolio__image" src="img/portfolio/3)/prewFolioImg_3.jpg" alt="">
+						</div>
+					</div>
+
+				</div>
+				<div class="portfolio__card-container">
+					<div class="portfolio__card feedback-card">
+						<div class="portfolio__info">
+							<div class="portfolio__user-block">
+								<div class="portfolio__quote"><img class="portfolio__quote" src="img/portfolio/quote.png"
+										alt="quote">
+								</div>
+								<div class=" portfolio__user-info">
+									<div class="portfolio__name">
+										<p>Станиславский</p>
+									</div>
+									<div class="portfolio__avatar-box"><img class="portfolio__avatar"
+											src="img/portfolio/4)/profileImg_4.png" alt="profile img 4"></div>
+								</div>
+							</div>
+							<div class="portfolio__feedback-box">
+								<p class="portfolio__feedback">"Это уже 2-й совместный проект, и не последний. Сотрудничать
+									одно удовольствие."
+								</p>
+							</div>
+							<div class="portfolio__detail-box">
+								<div class="portfolio__detail">
+									<img class="portfolio__detail-icon" src="img/portfolio/look.png" alt="look">
+									<a class="portfolio__detail-btn" href="#">Подробнее</a>
+								</div>
+								<div class="portfolio__like-box">
+									<a href="#"><img class="portfolio__like" src="/img/portfolio/like.png" alt="like"></a>
+
+									<span class="portfolio__like-counter">17</span>
+								</div>
+							</div>
+						</div>
+						<div class="portfolio__bg ">
+							<img class="portfolio__image" src="img/portfolio/4)/prewFolioImg_4.jpg" alt="portfolio 4">
+						</div>
+					</div>
+
+				</div>
+				<div class="portfolio__card-container">
+					<div class="portfolio__card feedback-card">
+						<div class="portfolio__info">
+							<div class="portfolio__user-block">
+								<div class="portfolio__quote"><img class="portfolio__quote" src="img/portfolio/quote.png"
+										alt="quote">
+								</div>
+								<div class=" portfolio__user-info">
+									<div class="portfolio__name">
+										<p>Павла Платонова</p>
+									</div>
+									<div class="portfolio__avatar-box"><img class="portfolio__avatar"
+											src="img/portfolio/5)/profileImg_5.jpg" alt="profile img 5"></div>
+								</div>
+							</div>
+							<div class="portfolio__feedback-box">
+								<p class="portfolio__feedback"> Всем осталась довольна. Сделать визитку с QR кодом было
+									неожиданным и
+									современным решением которое нам очень понравилась.
+								</p>
+							</div>
+							<div class="portfolio__detail-box">
+								<div class="portfolio__detail">
+									<img class="portfolio__detail-icon" src="img/portfolio/look.png" alt="look">
+									<a class="portfolio__detail-btn" href="#">Подробнее</a>
+								</div>
+								<div class="portfolio__like-box">
+									<a href="#"><img class="portfolio__like" src="/img/portfolio/like.png" alt="like"></a>
+
+									<span class="portfolio__like-counter">74</span>
+								</div>
+							</div>
+						</div>
+						<div class="portfolio__bg ">
+							<img class="portfolio__image" src="img/portfolio/5)/prewFolioImg_5.jpg" alt="Portfolio img 5">
+						</div>
+					</div>
+
+				</div>
+				<div class="portfolio__card-container">
+					<div class="portfolio__card feedback-card">
+						<div class="portfolio__info">
+							<div class="portfolio__user-block">
+								<div class="portfolio__quote"><img class="portfolio__quote" src="img/portfolio/quote.png"
+										alt="quote">
+								</div>
+								<div class=" portfolio__user-info">
+									<div class="portfolio__name">
+										<p>Челентано А. В.</p>
+									</div>
+									<div class="portfolio__avatar-box"><img class="portfolio__avatar"
+											src="img/portfolio/6)/profileImg_6.jpg" alt="profile img 6"></div>
+								</div>
+							</div>
+							<div class="portfolio__feedback-box">
+								<p class="portfolio__feedback">Быстро и не дорого. Буду рекомендовать знакомым. Спасибо
+								</p>
+							</div>
+							<div class="portfolio__detail-box">
+								<div class="portfolio__detail">
+									<img class="portfolio__detail-icon" src="img/portfolio/look.png" alt="look">
+									<a class="portfolio__detail-btn" href="#">Подробнее</a>
+								</div>
+								<div class="portfolio__like-box">
+									<a href="#"><img class="portfolio__like" src="/img/portfolio/like.png" alt="like"></a>
+
+									<span class="portfolio__like-counter">17</span>
+								</div>
+							</div>
+						</div>
+						<div class="portfolio__bg ">
+							<img class="portfolio__image" src="img/portfolio/6)/prewFolioImg_6.jpg" alt="">
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<div class="portfolio__button-add-container">
+				<div class="portfolio__button-add-cards">
+					<button>
+						<span class="portfolio__icon">+</span>
+						<span class="portfolio__add">показать ещё</span>
+					</button>
+				</div>
+			</div>
+			<div class="portfolio__subtitel subtitle">
+				<p>Мне ваш отзыв необходим для продвижения. Хочу чтоб это стало выгодно и вам тоже. Оставь свой
+					отзыв и получи возврат 5% от стоимости заказа.</p>
+			</div>
+			<div class="portfolio__button-add-review">
+				<button class="portfolio__add-review button">Оставить отзыв</button>
+			</div>
+		</div>
+	</div>
+</section>
+	<!-- подключпем футер -->
+	<footer>
+	<div class="footer">
+		<div class="footer__page">
+			<div class="footer__content">
+				<div class="footer__block">
+					<div class="footer__menu">
+						<a href="#">Услуги</a>
+						<a href="#">Цены</a>
+						<a href="#">Консультация</a>
+						<a href="#">Мерч</a>
+					</div>
+					<div class="footer__smm">
+						<p>Давай дружить:</p>
+						<div class="footer__smmimg">
+							<a href=""><img src="img/footer/FB.png" alt=""></a>
+							<a href=""><img src="img/footer/inst.png" alt=""></a>
+							<a href="https://www.behance.net/gleb_arta7ff"><img src="img/footer/Be.png" alt=""></a>
+							<a href=""><img src="img/footer/in.png" alt=""></a>
+						</div>
+					</div>
+					<div class="footer__work">
+						<p>Смотреть резюме:</p>
+						<div class="footer__smmimg">
+							<a href=""><img src="img/footer/hh.png" alt=""></a>
+							<a href=""><img src="img/footer/work.png" alt=""></a>
+						</div>
+					</div>
+
+				</div>
+				<div class="footer__reserved">
+					<a href="">© 2021 gl!b. Все права защищены. Cайт разработан мной.</a>
+				</div>
+			</div>
+
+		</div>
+		<div class="footer__page2">
+			<div class="footer__content2">
+
+				<a href="">Сайт задуман как учебный, некомерческий проект в качестве элемента портфолио для
+					трудоустройства.</a>
+				<a href="">Все графические элементы со временем будут заменены на аналогичный оригинальный контент.</a>
+				<a href="">Сайт находится в процессе разработки и периодически обновляется.</a>
+			</div>
+		</div>
+	</div>
+</footer>
+</body>
+<!-- подключпем файл с js -->
+<script src="js/app.min.js"></script>
+<!-- подключпаем JQuery 
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>-->
+<!-- подключпем slik слайдер 
+		<script src="js/slick.min.js"></script> -->
+<!-- подключаем Swiper slider -->
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+</html>
